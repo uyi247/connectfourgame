@@ -7,7 +7,7 @@ const colors = {
 
 const NUM_COLS = 7;
 const NUM_ROWS = 6;
-
+const resetBtn = document.getElementById("resetBtn");
 // app state
 let board, winner, turn;
 // cached elements
