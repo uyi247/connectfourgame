@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+#markers {
+  display: grid;
+  grid-template-columns: repeat(7, 10vmin);
+  grid-template-rows: 6vmin;
+  grid-column-gap: 1vmin;
+}
+
+#markers div {
+  border-top: 5vmin solid black;
+  border-left: 5vmin solid transparent;
+  border-right: 5vmin solid transparent;
+}
+
+#markers div:hover {
+  cursor: pointer;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(7, 10vmin);
+  grid-template-rows: repeat(6, 10vmin);
+  grid-gap: 1vmin;
+}
+
+#board div {
+  border: 2px solid black;
+  border-radius: 50%;
+}
