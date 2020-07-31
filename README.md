@@ -15,8 +15,8 @@ html
 css
 javascript
 
-GETTING STARTED : To play game, click the arrow on the top of the column, you would like to drop a disc.
+GETTING STARTED : To play game, click the arrow on the top of the column you would like to drop a disc.
 Click here to play game
 https://uyi247.github.io/connectfourgame/
 
-NEXT STEPS : Plan to add more functionality such as a Reset game button, difficulty levels and automated game play (human, computer and / or computer, computer).
+NEXT STEPS : Plan to add more functionality such as a Reset game button, a score check difficulty levels and automated game play (human, computer and / or computer, computer).
