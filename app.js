@@ -1,6 +1,6 @@
 // constants
 const colors = {
-  "1": "blue",
+  "1": "red",
   "-1": "yellow",
   "0": "white",
 };
@@ -26,11 +26,11 @@ for (let colIdx = 0; colIdx < NUM_COLS; colIdx++) {
 }
 
 // event listeners
-markersEl.addEventListener("click", handleMarkerClick);
+markersEl.addEventListener("click", handleMarker);
 // functions
 init();
 
-function handleMarkerClick(evt) {
+function handleMarker(evt) {
   let el = evt.target;
   const colId = parseInt(el.getAttribute("id").replace("col", ""));
 
@@ -52,8 +52,8 @@ function getWinner() {
       winner =
         checkUp(colIdx, rowIdx) ||
         checkRight(colIdx, rowIdx) ||
-        checkDiag(colIdx, rowIdx, 1) ||
-        checkDiag(colIdx, rowIdx, -1);
+        checkDiagonal(colIdx, rowIdx, 1) ||
+        checkDiagonal(colIdx, rowIdx, -1);
       if (winner) break;
 
       foundZero = foundZero || board[colIdx][rowIdx] === 0;
@@ -88,7 +88,7 @@ function checkRight(colIdx, rowIdx) {
   return absVal === 4 ? board[colIdx][rowIdx] : null;
 }
 
-function checkDiag(colIdx, rowIdx, vertOffset) {
+function checkDiagonal(colIdx, rowIdx, vertOffset) {
   if (
     colIdx > 3 ||
     (vertOffset > 0 && rowIdx > 2) ||
