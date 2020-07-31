@@ -3,6 +3,10 @@ Connect Four is a two-player connection game in which the players first choose a
 
 https://user-images.githubusercontent.com/65090942/89045800-20230d80-d31a-11ea-846d-c73ebee9533a.png
 
+https://user-images.githubusercontent.com/65090942/89045830-2f09c000-d31a-11ea-93fd-c0304c05637b.png
+
+
+
 
 
 TECHNOLOGIES USED :
