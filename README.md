@@ -15,7 +15,7 @@ html
 css
 javascript
 
-GETTING STARTED :
+GETTING STARTED : click here to play game
 https://uyi247.github.io/connectfourgame/
 
 NEXT STEPS : Plan to add more functionality such as a Reset game button, difficulty levels and automated game play (human, computer and / or computer, computer).
